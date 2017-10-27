@@ -1,1 +1,0 @@
-# mark-sprott.github.io
