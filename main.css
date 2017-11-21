@@ -24,8 +24,11 @@ nav ul li a {
   text-decoration: none;
   colour: #111111;
 }
-<style>
-div {
+<style type="text/css">
+  h2 {background-color: red;
+      padding-left: 15px; padding-right: 15px
+    }
+</style>
   border: 10px solid black;
 }
 </style
