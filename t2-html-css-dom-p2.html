@@ -4,18 +4,17 @@
   <title>UDACITY REFLECTION BLOG PART 2</title>
   <h1>UDACITY REFLECTION BLOG PART 2</h1>
   <style>
-  section,
-aside {
-  margin: 1.858736059%; /*  10px ÷ 538px = .018587361 */
-}
-section {
-  float: left;
-  width: 63.197026%;    /* 340px ÷ 538px = .63197026 */
-}
-aside {
-  float: right;
-  width: 29.3680297%;  /* 158px ÷ 538px = .293680297 */
-}
+  .grid{
+  display:grid;
+  grid-template-columns: 65% 35%;
+   }
+   .grid > div:nth-child(odd){
+     background-color: white;
+   }
+   .grid > div{
+     background-color: white;
+     padding: 2em;
+   }
   </style>
 </head>
 <a href="./index.html">Home page</a>
