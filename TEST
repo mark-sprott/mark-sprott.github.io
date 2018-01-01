@@ -16,7 +16,8 @@ aside {
   float: right;
   width: 29.3680297%;  /* 158px ÷ 538px = .293680297 */
 }
-  </style>
+</style>
+
 </head>
 <a href="./index.html">Home page</a>
 <body>
@@ -40,7 +41,17 @@ Good alignment, like much of design, should almost go unnoticed by your users. L
     <div><img src="https://quatr.us/wp-content/uploads/2017/07/battleships.gif" />
           <img src="https://drwzpk38qkpfb.cloudfront.net/newsite.websiteforge.com/uploaded/images/Responsive/xbluecomputers.png.pagespeed.ic.C3z4oEABNQ.png"/>
           <img src="http://www.uhwo.hawaii.edu/ekamakanihou/wp-content/uploads/2016/02/confused-person.jpg" /></div>
-
+          .grid{
+          display:grid;
+          grid-template-columns: 65% 35%;
+           }
+           .grid > div:nth-child(odd){
+             background-color: white;
+           }
+           .grid > div{
+             background-color: white;
+             padding: 2em;
+           }
 
   </body>
   </html>
