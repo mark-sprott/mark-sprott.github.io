@@ -72,3 +72,8 @@ body  {
     text-align: center;
     color: #ffffff;
   }
+
+  /*body*/
+  body  #content  p{
+    text-align: center;
+  }
