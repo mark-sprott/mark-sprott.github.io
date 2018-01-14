@@ -6,3 +6,24 @@ body  {
   margin: 0;
   background-color: #f4f4f4;
 }
+
+  /*global*/
+  .container{
+    width: 80%
+    margin:auto;
+    overflow: hidden;
+  }
+
+  ul{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /*header**/
+  header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d  5px solid;
+  }
