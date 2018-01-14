@@ -75,7 +75,8 @@ body  {
   }
 
   #image{
-    min-height: 500px;
+    min-height: 300px;
+    min-width: inherit;
     background: url('../img/iStock-502617555[1].jpg') no-repeat 0 -0px; margin: 0px;
     text-align: center;
     color: #e8491d;
