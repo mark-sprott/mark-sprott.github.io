@@ -78,7 +78,11 @@ body  {
     min-height: 300px;
     min-width: inherit;
     background: url('../img/iStock-502617555[1].jpg') no-repeat 0 -0px; margin-left: 400px;
-    text-align: left;
+    }
+
+  #quote{
+    text-align: justify;
+    font-weight: bold;
     color: black;
   }
 
