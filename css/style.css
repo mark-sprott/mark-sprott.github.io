@@ -81,7 +81,7 @@ body  {
     }
 
   #quote{
-    text-align: justify;
+    text-align: center;
     font-weight: bold;
     color: black;
   }
