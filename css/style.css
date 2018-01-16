@@ -80,6 +80,12 @@ body  {
     background: url('../img/mindfulness-poster[1].jpg') no-repeat 0 -0px; margin-left: 400px;
     }
 
+  #image2{
+    min-height: 300px
+    min-width: inherit;
+    background: url('confused-person[1].jpg') no-repeat 0 -0px; margin-left: 400px;
+  }
+
   #quote{
     text-align: center;
     font-weight: bold;
