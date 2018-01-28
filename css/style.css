@@ -87,8 +87,7 @@ body  {
   }
 
   #image3{
-    min-height: 300px;
-    min-width: inherit;
+    min-height: 800px;
     background: url('../img/Wireframe drawings.jpg') no-repeat 0 -0px; margin-left: 400px;
     }
 
