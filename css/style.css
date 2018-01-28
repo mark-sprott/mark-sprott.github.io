@@ -87,9 +87,9 @@ body  {
   }
 
   #image3{
-    min-height: 250px
-    min-width:inherit;
-    background: url('../img/wireframe drawings.jpg')  no-repeat 0 -0px; margin-left: 200px;
+    min-height: 300px;
+    min-width: inherit;
+    background: url('../img/Wireframe drawings.jpg') no-repeat 0 -0px; margin-left: 400px;
     }
 
   #quote{
