@@ -43,9 +43,11 @@
 <p>
   Square brackets are used to index (access) elements in arrays and also Strings. Specifically lost[i] will evaluate to the ith item in the array named lost.
 </p>
-<h2>Single quotes '' Vs Double quotes "" see video below</h2>
-<center><iframe src="https://www.youtube.com/watch?v=Z1FC89KfI3A"frameborder="4" width="320px" height="320px" margin-left="400px" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
-</div>
+<h2>Single quotes '' Vs Double quotes ""</h2>
+<p>I've seen both 'single quotes' and "double quotes" used for writing strings in JavaScript. and I've wondered if they have any difference. Is there a preference over the other? Which way should I use in my code?</p>
+<p>From what I have gathered they are the same thing.  In JavaScript, a string is a sequence characters enclosed in single or double quotes. The choice of quoting style is up to the programmer, and either style has no special semantics over the other. There is no type for a single character in JavaScript - everything is always a string.</p>
+<p>Strategic selection of the quote character can save you from escaping ' or " characters inside the string. For example, when storing a HTML snippet in a variable, you can use " for HTML attribute values if you use ' for enclosing the JavaScript string: var div = '<div class="panel">...</div>'</p>
+<p>From what I have read and in my practice the key is sticking to one and sticking to it (making sure my code is consistent).</p>
 <footer>
   <p> Mark Sprott Webdesigns, Copyright &copy; 2018</p>
 </body>
